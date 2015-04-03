@@ -52,7 +52,7 @@ int main (int argc, char *argv[])
   std::string animFile = "AnimTrace.xml" ;  /* Name of file for animation output
   
   /*the parameters to tune ON/OFF application*/
-  uint16_t runValue  = 0;
+  uint16_t runValue  = 0; ///
   uint16_t pktSize   = 512;
   double   onTime    = 0.1;
   double   offTime   = 0.1; /*equal means duty cycle is 0.5
